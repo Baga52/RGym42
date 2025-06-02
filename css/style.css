@@ -1,0 +1,798 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'montserratregular', Arial, sans-serif;
+    list-style-type: none;
+}
+html,
+body{
+    background-color: black;
+    height: 100%;
+    min-height: 100%;
+    min-width: 320px;
+    color: white;
+}
+.container{
+    max-width: 100%;
+    margin: 0 auto;
+    justify-content: center;
+    margin: 0 150px 0 150px;
+}
+
+/*--------------header--------------*/
+header{
+    background-color: black;
+}
+
+.header-all{
+    display: flex;
+    justify-content: space-between;
+}
+
+header span{
+    color: red;
+}
+
+.header-all-logo{
+    font-size: 36px;
+    font-weight: 700;
+    margin-top: 28px;
+}
+
+.header-all-left{
+    display: flex;
+    gap: 37px;
+}
+
+.header-all-time{
+    display: flex;
+    align-items: center;
+    margin-top: 32px;
+}
+
+.clock{
+    width: 20px;
+}
+
+header ul{
+    display: flex;
+    gap: 63px;
+    margin-top: 39px;
+}
+
+.header-all-right nav{
+    display: flex;
+    gap: 40px;
+    cursor: pointer;
+}
+
+.header-all-nav-button{
+    margin-top: 23px;
+    color: white;
+    background-color: red;
+    width: 111px;
+    height: 50px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.header-all-nav-button:hover{
+    background-color: rgb(199, 75, 30);
+}
+
+.header-all-nav-button:focus{
+    border: 2px solid rgb(238, 222, 0); background-color: rgb(146, 236, 0);
+}
+
+.header-all-nav-list-item1:hover{
+    color: gray;
+}
+.header-all-nav-list-item2:hover{
+    color: gray;
+}
+.header-all-nav-list-item3:hover{
+    color: gray;
+}
+
+/*---------------main-block---------------------*/
+
+.main-block{
+    position: relative;
+    background-image: url("../img/gymBoy.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 770px;
+    padding-top: 256px;
+}
+.main-block-left{
+    display: flex;
+}
+
+.main-block-quote{
+    margin-left: 17px;
+    font-size: 60px;
+    width: 460px;
+    max-height: 219px;
+    border: 1px solid #cccccc00;
+}  
+
+.button-container{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.main-block-btn-get{
+    position: absolute;
+    top: 490px; 
+    left: 300px; 
+    align-items: center;
+    justify-content: center;
+}
+
+.main-block-btn-get:hover{
+    background-color: rgba(114, 114, 114, 0.212);
+}
+
+.main-block-btn-get-started{
+    color: white;
+    background-color: red;
+    width: 150px;
+    height: 50px;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.play-button {
+    width: 41px; 
+    height: 41px; 
+    cursor: pointer; 
+}
+
+.scroll-down {
+    position: absolute;
+    top: 96%;
+    left: 300px;
+    transform: rotate(90deg);
+    color: white;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    transition: all 0.3s ease;
+}
+
+.scroll-down:hover {
+    color: red;
+}
+
+.social-buttons {
+    position: absolute;
+    top: 35%;
+    right: 75px;
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+}
+
+.social-button1{
+    width: 11px;
+    height: 21px;
+    cursor: pointer;
+}
+.social-button2{
+    width: 25px;
+    height: 21px;
+    cursor: pointer;
+}
+.social-button3{
+    width: 21px;
+    height: 21px;
+    cursor: pointer;
+}
+
+.prev-next {
+    position: absolute;
+    transform: rotate(90deg);
+    bottom: 144px;
+    right: 30px;
+    display: flex;
+    gap: 10px;
+}
+
+.prev-button{
+    color: white;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    transition: all 0.3s ease;
+}
+
+.next-button{
+    color: rgb(255, 0, 0);
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    transition: all 0.3s ease;
+}
+
+/*--------------------popular-------------------*/
+main{
+    background-color: black;
+}
+
+.main-container{
+    margin-top: 155px;
+}
+
+.main-popular {
+    font-size: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-text{
+    font-size: 18px;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    margin-top: 29px;
+}
+
+.main-line{
+    display: flex;
+    justify-content: center;
+    margin-top: 43px;
+}
+
+.main-img-gym-people{
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    margin-top: 113px;
+} 
+
+.main-img-gym-people-down{
+    margin-top: 183px;
+}
+
+/*-----------------------sub-container------------------------*/
+.sub-container{
+    position: relative;
+    background-image: url("../img/backboy.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 1042px;
+    margin-top: 147px;
+}
+.sub-img {
+    display: flex;
+    justify-content: flex-start;
+    width: 492px;
+    height: 369px;
+}
+.sub-subscribe-text{
+    font-size: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 139px;
+    margin-left: 52px;
+}
+
+.sub-lorem {
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 16px;
+}
+.sub-email {
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 55px;
+}
+.enter-email {
+    color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0);
+    width: 402px;
+    height: 60px;
+    border: 1px solid white;
+    font-size: 16px;
+    cursor: pointer;
+    padding-left: 153px;
+}
+.submit {
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    width: 402px;
+    height: 60px;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 16px;
+}
+
+.submit:focus:hover{
+    color: rgb(255, 0, 0);
+}
+
+.submit:focus{
+    color: red;
+}
+
+/*-------------foooter--------------*/
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 40px 0;
+}
+
+.footer-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px;
+    margin: 150px 150px;
+    max-width: 1600px;
+}
+
+.footer-logo-text {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer-logo p {
+    font-size: 36px;
+}
+
+.footer-logo span {
+    color: red;
+}
+
+.footer-text {
+    font-size: 18px;
+}
+
+.footer-information-link,
+.footer-more-ref {
+    margin-left: 150px;
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+    line-height: 35px;
+}
+
+.footer-information,
+.footer-more {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.footer-information ul,
+.footer-more ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-information ul li,
+.footer-more ul li {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.footer-information:hover{
+    color: gray;
+}
+
+.footer-more:hover{
+    color: gray;
+}
+
+.footer-ref:hover{
+    color: gray;
+}
+
+.footer-link:hover{
+    color: gray;
+}
+
+.footer-follow-media {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 15px;
+}
+
+.social-icons {
+    display: flex;
+    gap: 15px;
+}
+
+.media-button1 img,
+.media-button2 img,
+.media-button3 img {
+    width: 30px;
+    height: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+.copyright-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.footer-copyright {
+    text-align: center;
+    font-size: 16px;
+}
+
+.footer-container p{
+    font-size: 24px;
+}
+
+.footer-copyright span {
+    color: red;
+}
+
+.footer-follow-media p {
+    margin: 0;
+}
+
+
+/*------------------------------------------------------*/
+@media (max-width: 1400px) {
+    .container {
+        margin: 0 100px;
+    }
+    
+    .main-block-quote {
+        font-size: 50px;
+        width: 400px;
+    }
+    
+    .footer-container {
+        margin: 100px 100px;
+    }
+}
+
+/*-------------------------------------------------*/
+@media (max-width: 1200px) {
+    .container {
+        margin: 0 50px;
+    }
+    
+    .main-block {
+        background-size: cover;
+        background-position: center;
+    }
+    
+    .main-block-quote {
+        font-size: 45px;
+        width: 380px;
+    }
+    
+    .main-block-btn-get {
+        left: 200px;
+    }
+    
+    .scroll-down {
+        left: 200px;
+    }
+    
+    .main-img-gym-people {
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+    }
+    
+    .main-img-gym-people img {
+        max-width: 200px;
+    }
+    
+    .main-img-gym-people-down {
+        margin-top: 0;
+    }
+    
+    .footer-container {
+        margin: 80px 50px;
+        gap: 20px;
+    }
+    
+    .footer-information-link,
+    .footer-more-ref {
+        margin-left: 50px;
+    }
+
+    .sub-img {
+    width: 300px;
+    height: 200px;
+    }
+}
+
+
+/*-----------------------------------------------------------------*/
+@media (max-width: 992px) {
+    .header-all {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .header-all-left {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+    
+    .header-all-time {
+        margin-top: 10px;
+    }
+    
+    .header-all-right nav {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    
+    header ul {
+        margin-top: 20px;
+        gap: 30px;
+    }
+    
+    .header-all-nav-button {
+        margin-top: 10px;
+    }
+    
+    .main-block {
+        height: 600px;
+        padding-top: 150px;
+    }
+    
+    .main-block-quote {
+        font-size: 40px;
+        width: 350px;
+    }
+    
+    .main-block-btn-get {
+        top: 400px;
+        left: 150px;
+    }
+    
+    .scroll-down {
+        left: 150px;
+    }
+    
+    .social-buttons {
+        right: 30px;
+    }
+    
+    .prev-next {
+        right: 10px;
+    }
+    
+    .sub-container {
+        height: auto;
+        padding-bottom: 50px;
+    }
+    
+    .footer-container {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 40px;
+    }
+    
+    .sub-img {
+    display: none;
+    }
+
+    .footer-information-link,
+    .footer-more-ref {
+        margin-left: 0;
+    }
+    
+    .footer-follow-media {
+        align-items: flex-start;
+    }
+}
+
+/*--------------------------------------------------------*/
+@media (max-width: 768px) {
+    .container {
+        margin: 0 30px;
+    }
+    
+    header ul {
+        gap: 20px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .main-block {
+        height: 500px;
+        padding-top: 100px;
+    }
+    
+    .main-block-quote {
+        font-size: 32px;
+        width: 300px;
+    }
+    
+    .main-block-btn-get {
+        top: 350px;
+        left: 100px;
+    }
+    
+    .scroll-down {
+        left: 100px;
+    }
+    
+    .main-popular {
+        font-size: 36px;
+    }
+    
+    .main-text {
+        text-align: center;
+        padding: 0 20px;
+    }
+    
+    .sub-subscribe-text {
+        font-size: 30px;
+        margin-left: 0;
+        text-align: center;
+    }
+    
+    .sub-lorem {
+        text-align: center;
+        padding: 0 20px;
+    }
+    
+    .enter-email {
+        width: 90%;
+        max-width: 402px;
+        padding-left: 20px;
+    }
+    
+    .submit {
+        width: 90%;
+        max-width: 402px;
+    }
+}
+
+
+/*--------------------------------------------------------------------*/
+@media (max-width: 576px) {
+    .header-all-logo {
+        font-size: 30px;
+    }
+    
+    .header-all-time p {
+        font-size: 14px;
+    }
+    
+    header ul {
+        font-size: 14px;
+    }
+    
+    .main-block {
+        height: 450px;
+    }
+    
+    .main-block-quote {
+        font-size: 28px;
+        width: 250px;
+    }
+    
+    .main-block-btn-get {
+        top: 300px;
+        left: 50px;
+    }
+    
+    .main-block-btn-get-started {
+        width: 120px;
+        height: 40px;
+        font-size: 16px;
+    }
+    
+    .play-button {
+        width: 30px;
+        height: 30px;
+    }
+    
+    .scroll-down {
+        left: 50px;
+        font-size: 16px;
+    }
+    
+    .social-buttons {
+        gap: 30px;
+    }
+    
+    .main-popular {
+        font-size: 30px;
+    }
+    
+    .main-text {
+        font-size: 16px;
+    }
+    
+    .sub-subscribe-text {
+        font-size: 26px;
+    }
+    
+    .footer-container {
+        grid-template-columns: 1fr;
+        text-align: center;
+        margin: 50px 30px;
+    }
+    
+    .footer-logo-text,
+    .footer-information-link,
+    .footer-more-ref,
+    .footer-follow-media {
+        align-items: center;
+    }
+    
+    .footer-follow-media {
+        margin-top: 20px;
+    }
+}
+
+/*------------------------------------------------------------------*/
+@media (max-width: 320px) {
+    .container {
+        margin: 0 15px;
+    }
+    
+    .header-all-logo {
+        font-size: 24px;
+    }
+    
+    header ul {
+        gap: 15px;
+        font-size: 12px;
+    }
+    
+    .header-all-nav-button {
+        width: 90px;
+        height: 40px;
+        font-size: 14px;
+    }
+    
+    .main-block {
+        height: 400px;
+    }
+    
+    .main-block-quote {
+        font-size: 24px;
+        width: 220px;
+    }
+    
+    .main-block-btn-get {
+        top: 280px;
+        left: 30px;
+    }
+    
+    .scroll-down {
+        left: 30px;
+        font-size: 14px;
+    }
+    
+    .main-popular {
+        font-size: 26px;
+    }
+    
+    .main-img-gym-people img {
+        max-width: 150px;
+    }
+}
