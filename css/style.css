@@ -101,6 +101,7 @@ header ul{
     color: gray;
 }
 
+
 /*---------------main-block---------------------*/
 
 .main-block{
@@ -174,6 +175,10 @@ header ul{
     color: red;
 }
 
+.scroll-down:focus {
+    color: orange;
+}
+
 .social-buttons {
     position: absolute;
     top: 35%;
@@ -224,6 +229,22 @@ header ul{
     cursor: pointer;
     font-size: 18px;
     transition: all 0.3s ease;
+}
+
+.prev-button:hover{
+    color: red;
+}
+
+.prev-button:focus{
+    color: orange;
+}
+
+.next-button:hover{
+    color: rgb(255, 255, 255);
+}
+
+.next-button:focus{
+    color: orange;
 }
 
 /*--------------------popular-------------------*/
@@ -403,13 +424,7 @@ footer {
     color: gray;
 }
 
-.footer-ref:hover{
-    color: gray;
-}
 
-.footer-link:hover{
-    color: gray;
-}
 
 .footer-follow-media {
     display: flex;
@@ -462,6 +477,30 @@ footer {
     margin: 0;
 }
 
+.li-1:hover{
+    color: gray;
+}
+.li-2:hover{
+    color: gray;
+}
+.li-3:hover{
+    color: gray;
+}
+.li-4:hover{
+    color: gray;
+}
+.li-5:hover{
+    color: gray;
+}
+.li-6:hover{
+    color: gray;
+}
+.li-7:hover{
+    color: gray;
+}
+.li-8:hover{
+    color: gray;
+}
 
 /*------------------------------------------------------*/
 @media (max-width: 1400px) {
@@ -482,12 +521,18 @@ footer {
 /*-------------------------------------------------*/
 @media (max-width: 1200px) {
     .container {
-        margin: 0 50px;
+        margin: 0 100px;
+    }
+
+    .main-text{
+        margin-left: 100px;
+        margin-right: 100px;
     }
     
     .main-block {
         background-size: cover;
         background-position: center;
+        margin-right: 70px;
     }
     
     .main-block-quote {
@@ -503,6 +548,10 @@ footer {
         left: 200px;
     }
     
+    .main-container{
+        margin-right: 70px;
+    }
+
     .main-img-gym-people {
         flex-wrap: wrap;
         gap: 20px;
@@ -518,7 +567,7 @@ footer {
     }
     
     .footer-container {
-        margin: 80px 50px;
+        margin: 80px 150px;
         gap: 20px;
     }
     
