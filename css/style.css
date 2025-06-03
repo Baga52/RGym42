@@ -347,8 +347,8 @@ main{
     margin-top: 16px;
 }
 
-.submit:focus:hover{
-    color: rgb(255, 0, 0);
+.submit:hover{
+    background-color: aqua;
 }
 
 .submit:focus{
