@@ -20,10 +20,15 @@ body{
     margin: 0 150px 0 150px;
 }
 
+h2{
+    font-size: 0px;
+}
+
 /*--------------header--------------*/
 header{
     background-color: black;
 }
+
 
 .header-all{
     display: flex;
@@ -432,6 +437,12 @@ footer {
     justify-content: center;
     align-items: center;
     margin-top: 40px;
+}
+
+.footer-logo-link{
+    text-decoration: none;
+    color: white;
+    font-size: 36px;
 }
 
 .footer-copyright {
